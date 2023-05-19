@@ -1,4 +1,4 @@
-import React, { Component, useRef } from 'react';
+import React, { Component } from 'react';
 import emailjs from 'emailjs-com';
 import $ from 'jquery';
 
@@ -96,7 +96,7 @@ class Contact extends Component {
             };
 
         const thankTxt = () => {
-            if($("#inputName").val() != "" && $("#inputEmail").val() != "" && $("#inputText").val()  != "" && $("#inputSubject").val() != ""){
+            if($("#inputName").val() !== "" && $("#inputEmail").val() !== "" && $("#inputText").val()  !== "" && $("#inputSubject").val() !== ""){
                 $("#thank-txt").text("Thank you for contact me. Have a great day!");
                 $("#thank-txt").css("color", "green");
             }else{
@@ -187,8 +187,8 @@ class Contact extends Component {
                                         
                                         <div className="col-12 col-md-6">
                                             <div className="form-group captcha-wrapper">
-                                                <div className="captcha-img-wrapper">
-                                                    <img style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "../img/captcha.jpg"})`}}/>
+                                            <div className="captcha-img-wrapper">
+                                                <img style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "../img/captcha.jpg"})` }} alt="captchaImg" />
                                                     <span className="captcha-content" value={temp}>{temp}</span>
                                                 </div>
                                                 <button className="button-reload-icon fa-solid fa-rotate-right" name="button-reload" onClick={onClick}></button>
