@@ -65,10 +65,14 @@ const Portfolio = () => {
 
     const handleShow = (e) => {
         let test = {};
+
         projectDetail.forEach(project => { 
-            if (project.id === e.target.name) { test = project } 
+            if (project.id == e.target.name) { test = project } 
+            console.log(test);
+
         })
 
+        console.log(test);
         setProject(test);
         setShow(true);
     }

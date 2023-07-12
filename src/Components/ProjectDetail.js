@@ -6,6 +6,7 @@ AOS.init();
 AOS.refresh();
 
 const project = ({ project }) => {
+    console.log(project);
     return(
         <div className="row">
             <div className="col-12 ">

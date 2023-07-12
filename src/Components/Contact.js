@@ -25,7 +25,7 @@ class Contact extends Component {
             {
                 contacts_icon: "fa fa-phone-square",
                 contacts_title: "Call Me",
-                contacts_content: "+84902450647"
+                contacts_content: "+84 902 450 647"
             }
         ]
     }
@@ -188,7 +188,7 @@ class Contact extends Component {
                                         <div className="col-12 col-md-6">
                                             <div className="form-group captcha-wrapper">
                                             <div className="captcha-img-wrapper">
-                                                <img style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "../img/captcha.jpg"})` }} alt="captchaImg" />
+                                                <img style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "../img/captcha.jpg"})` }} />
                                                     <span className="captcha-content" value={temp}>{temp}</span>
                                                 </div>
                                                 <button className="button-reload-icon fa-solid fa-rotate-right" name="button-reload" onClick={onClick}></button>
