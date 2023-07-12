@@ -191,8 +191,9 @@ class About extends Component {
 
                 <section className="about-main-content">
                     <div className="container">
-                        <div className="row">
 
+                        {/*---------- Personal Infos ----------*/}
+                        <div className="row">
                             <div className="col-xl-6 col-lg-5 col-12">
                                 <div className="row">
 
@@ -243,6 +244,7 @@ class About extends Component {
 
                         <hr className="separator" />
 
+                        {/*---------- Skills ----------*/}
                         <div className="row">
                             <div className="col-12">
                                 <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center ft-wt-600 about-custom-title">my skills</h3>
@@ -280,6 +282,7 @@ class About extends Component {
                             </div>
                         </div>
 
+                        {/*---------- Experience & Education ----------*/}
                         <div className="row">
 
                             <div className="col-12">
