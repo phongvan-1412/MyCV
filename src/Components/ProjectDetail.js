@@ -54,7 +54,7 @@ const project = ({ project }) => {
             <div className="col-xl-12 col-lg-12 col-12">
                 <iframe width="100%" height="650" 
                         src={project.project_video_link} 
-                        title="YouTube video player" frameBorder="0" 
+                        title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowFullScreen>
                 </iframe>

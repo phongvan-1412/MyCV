@@ -7,6 +7,7 @@
     --backgroundColor6: #111;
     --backgroundColor7: #777;
     --borderColor: #252525;
+    --markerColor: red;
     --fontColor: #fff;
     --linkColor: #0a58ca;
     --warningColor: red;
@@ -390,14 +391,16 @@ header {
     margin-bottom: 30px;
 }
 
+
 .about-box-stats,
 .about-box-skills {
+    margin-right: 2rem;
     padding: 20px 30px 25px 40px;
     border: 1px solid var(--borderColor);
     border-radius: 5px;
     color: var(--fontColor);
 }
-
+    
     .about-box-stats h3,
     .about-box-skills h3 {
         display: inline-block;
@@ -407,26 +410,35 @@ header {
         font-weight: 700;
     }
 
-        .about-box-stats h3::after {
-            position: absolute;
-            top: 2px;
-            right: -24px;
-            content: "+";
-            font-size: 33px;
-            font-weight: 300;
-        }
+    .about-box-skills h6 {
+        color: var(--backgroundColor5);
+    }
 
-        .about-box-skills h3::after {
-            position: absolute;
-            top: 2px;
-            right: -24px;
-            content: "%";
-            font-size: 33px;
-            font-weight: 300;
-        }
-
-    .about-box-stats p::before,
-    .about-box-skills p::before {
+    .about-box-stats h3::after {
+        position: absolute;
+        top: 2px;
+        right: -24px;
+        content: "+";
+        font-size: 33px;
+        font-weight: 300;
+    }
+    .about-box-skills li{
+        list-style: square;
+    }
+    .about-box-skills li::marker {
+        color: var(--markerColor);
+        font-size: 11px;
+    }
+    /*.about-box-skills h3::after {
+        position: absolute;
+        top: 2px;
+        right: -24px;
+        content: "%";
+        font-size: 33px;
+        font-weight: 300;
+    }*/
+    /*.about-box-skills p::before*/
+    .about-box-stats p::before {
         position: absolute;
         width: 30px;
         height: 1px;
@@ -822,6 +834,15 @@ header {
 @media screen and (max-width: 990px) {
     .home-wrapper {
         height: 500px;
+    }
+
+    .about-box-skills-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-box-skills {
+        margin-bottom: 2rem;
     }
 }
 
