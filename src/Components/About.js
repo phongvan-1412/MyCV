@@ -142,38 +142,32 @@ class About extends Component {
             {
                 resumes_time: "08/2021-PRESENT",
                 resumes_doing: "Student",
-                resumes_place: "Aptech",
-                resumes_content: "I've just finished semesterI about Web Application at Aptech and now, I'm learning 4th semester. "
+                resumes_place: "Aptech (Learning: 4th semester)"
             },
             {
                 resumes_time: "03/2021-04/2022",
                 resumes_doing: "Retail Sale Employee",
-                resumes_place: "Classic Fine Foods",
-                resumes_content: "I do this job to save money to go to learn at Aptech."
+                resumes_place: "Classic Fine Foods"
             },
             {
                 resumes_time: "08/2020-02/2021",
                 resumes_doing: "Digital Marketing",
-                resumes_place: "FPT Polytechnic",
-                resumes_content: "I've learned semesterI here and suddenly, this leads me to what I'm doing right now: 'Learning to become a Full Stack Software Engineer'. "
+                resumes_place: "FPT Polytechnic"
             },
             {
                 resumes_time: "03/2017-07/2020",
                 resumes_doing: "Store Manager",
-                resumes_place: "July Fashion - Retail Clothing Shop",
-                resumes_content: "After quit school, I've worked at a retail clothes shop to find out more about myself."
+                resumes_place: "July Fashion - Retail Clothing Shop"
             },
             {
                 resumes_time: "09/2015-06/2016",
                 resumes_doing: "Kitchen Employee (Bar & Salad Corner)",
-                resumes_place: "THE PIZZA COMPANY",
-                resumes_content: "My first part-time job."
+                resumes_place: "THE PIZZA COMPANY"
             },
             {
                 resumes_time: "2014-2017",
                 resumes_doing: "Industrial Design",
-                resumes_place: "Ton Duc Thang University",
-                resumes_content: "I've learned about Design for 2.5 years but when I experienced at school, I realized I didn't fit in this major, so I decided to drop school and go to work."
+                resumes_place: "Ton Duc Thang University (2.5 years)"
             }
         ]
     }
@@ -304,7 +298,6 @@ class About extends Component {
                                                             <h5 className="poppins-font text-uppercase">{resume.resumes_doing}
                                                                 <span className="place">{resume.resumes_place}</span>
                                                             </h5>
-                                                            <p>{resume.resumes_content}</p>
                                                         </li>
                                                     </ul>
                                                 </div>

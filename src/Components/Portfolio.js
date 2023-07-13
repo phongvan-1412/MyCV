@@ -143,7 +143,7 @@ const Portfolio = () => {
                                     onClick={handleShow}
                                     data-content={test.project_name_value}
                                     >
-                                        <img style={{ backgroundImage: `url(${process.env.PUBLIC_URL + test.project_img})` }} />
+                                        <img style={{backgroundImage: `url(${process.env.PUBLIC_URL + test.project_img})`}} />
                                         {test.project_name_value}
                                     </Button>
                                 )
@@ -161,7 +161,7 @@ const Portfolio = () => {
                                         onClick={handleShow}
                                         data-content={test.project_name_value}
                                         >
-                                            <img   style={{ backgroundImage: `url(${process.env.PUBLIC_URL + test.project_img})` }} />
+                                            <img style={{backgroundImage: `url(${process.env.PUBLIC_URL + test.project_img})`}} />
                                             {test.project_name_value}
                                         </Button>
                                         )
@@ -180,7 +180,7 @@ const Portfolio = () => {
                                         onClick={handleShow}
                                         data-content={test.project_name_value}
                                         >
-                                            <img   style={{ backgroundImage: `url(${process.env.PUBLIC_URL + test.project_img})` }} />
+                                            <img style={{backgroundImage: `url(${process.env.PUBLIC_URL + test.project_img})`}} />
                                             {test.project_name_value}
                                         </Button>
                                     )
