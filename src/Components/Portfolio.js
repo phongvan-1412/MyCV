@@ -39,9 +39,10 @@ const Portfolio = () => {
             project_tech_title: "Technologies & Software:",
             project_tech_value1: "- Manage source code: Github",
             project_tech_value2: "- Database: SQL Server 2019",
-            project_tech_value3: "- Framework: Laravel (Back-end)",
-            project_tech_value4: "- Library: ReactJS (Front-end), Google Maps Javascript API",
-            project_tech_value5: " - Software: Visual Code 2019",
+            project_tech_value3: "- Language: PHP, Javascript",
+            project_tech_value4: "- Framework: Laravel (Back-end)",
+            project_tech_value9: "- Library: ReactJS (Front-end), Google Maps Javascript API",
+            project_tech_value10: "- Software: Visual Code 2019",
             project_source_title: "Link Source Code",
             project_source_value: "https://github.com/phongvan-1412/VNHP-Online-Auction",
             project_video_link: "https://www.youtube.com/watch?v=FOOEn4aIbM8",
@@ -71,6 +72,60 @@ const Portfolio = () => {
         },
         {
             project_name_title: "Project Name",
+            project_name_value: "VNHP Real-Estate",
+            project_time_title: "Time",
+            project_time_value: "10/22 - 12/22",
+            project_label_title: "Label",
+            project_label_value: "Desktop Application",
+            project_team_size_title: "Position",
+            project_team_size_value: "Full Stack",
+            project_tech_title: "Technologies & Software:",
+            project_tech_value1: "- Manage source code: Gitlab",
+            project_tech_value2: "- Database: SQL Server 2019",
+            project_tech_value3: "- Language: Java",
+            project_tech_value4: "- Library:",
+            project_tech_value5: "+Design Receipts/Contracts and export into PDF files: JasperReports",
+            project_tech_value6: "+Send Email: Jakarta mail",
+            project_tech_value7: "+Front-end: JavaFX (UI: Scence Builder)",
+            project_tech_value8: "+Back-end: Java (JDK 18)",
+            project_tech_value9: "- Software: Apache NetBeans IDE 14",
+            project_tech_value10: "- Other:",
+            project_tech_value11: "+Spinner- Animation (Logo): Rotate & Transition",
+            project_tech_value12: "+Multi thread",
+            project_description_title: "Description",
+            project_description_value1: "- This software provides a software solution for real-estate company to manage all company's activities so we divided into 4 departments:",
+            project_description_value6: "* Business:",
+            project_description_value7: "- Customer Service Consultant employees can view detail of products to explain, support or sale products for customers.",
+            project_description_value8: "- When making contract for activities like Deposit/Sale/Transfer/Cancel, if customer is brand new, employee will get their information, create new account in system and then proceed to create suitable contract.",
+            project_description_value9: "- Employees can search for customers to track on their contract status and update status for contract, this allow another department can follow contract easily and proceed next step.",
+            project_description_value10: "* Accountant: When accountants receive notification of contract, they handle it and export to suitable receipt, then send receipt to customer or relevant department",
+            project_description_value11: "* Director:",
+            project_description_value12: "- Directors create new projects, investors",
+            project_description_value13: "- Directors also view Statistics, Revenues of company's business",
+            project_description_value14: "* Human Resources: HRs incharge of recruiting new employees, create labour contract or terminate contract",
+            project_work_title: "My Responsibilities:",
+            project_work_value1: "* Design UI for application",
+            project_work_value5: "* Business:",
+            project_work_value9: "+ Dashboard: ",
+            project_work_value10: "- Display information of Products, Investors",
+            project_work_value11: "- In Product's Detail, I make a simple calculator for employee can estimate price of products",
+            project_work_value12: "+ Customers: CRUD ",
+            project_work_value13: "+ Contracts: ",
+            project_work_value14: "- CRUD 4 types of contracts: Deposit, Sales, Transfer, Cancel",
+            project_work_value15: "- Logic processing for Customers & Contracts",
+            project_work_value16: "- Using library JasperReports to design contracts and export into PDF files",
+            project_work_value17: " * HR:",
+            project_work_value18: "- Employees: CRUD",
+            project_work_value19: "- Using JasperReports to design contracts and export into PDF files",
+            project_source_title: "Link Source Code",
+            project_source_value: "https://gitlab.com/phuongvx1/vnhp-real-estate.git",
+            project_video_link: "https://www.youtube.com/embed/qeHgxIMK7G4",
+            project_img: "'../img/image4.jpg'",
+            index: 2,
+            id: 3
+        },
+        {
+            project_name_title: "Project Name",
             project_name_value: "PV Library",
             project_time_title: "Time",
             project_time_value: "01/23 - 02/23",
@@ -80,24 +135,24 @@ const Portfolio = () => {
             project_team_size_value: "Full Stack",
             project_description_title: "Description",
             project_description_value1: "- This software simply modifies cashier at a bookstore:",
-            project_description_value2: "+ I haven't yet developed more barcode scanning and printing out invoices so it mostly CRUD.",
-            project_description_value3: "+ Admin is also a user.",
-            project_description_value5: "- This software helps an employee can:",
-            project_description_value6: "+ CRUD Author, Publisher, Customer, Employee, Book",
-            project_description_value7: "+ Proceed payment for customer and can store customer bills in Inventory when current customers want to select more products and prepay for the next customer.",
-            project_description_value8: "+ View Bill, Bill Detail, Overall Statistics",
+            project_description_value6: "+ I haven't yet developed more barcode scanning and printing out invoices so it mostly CRUD.",
+            project_description_value10: "+ Admin is also a user.",
+            project_description_value15: "- This software helps an employee can:",
+            project_description_value16: "+ CRUD Author, Publisher, Customer, Employee, Book",
+            project_description_value17: "+ Proceed payment for customer and can store customer bills in Inventory when current customers want to select more products and prepay for the next customer.",
+            project_description_value18: "+ View Bill, Bill Detail, Overall Statistics",
             project_tech_title: "Technologies & Software:",
             project_tech_value1: "- Manage source code: Github",
             project_tech_value2: "- Database: SQL Server 2019",
             project_tech_value3: "- Framework: Laravel (Back-end)",
             project_tech_value4: "- Library: ReactJS (Front-end), Google Maps Javascript API",
-            project_tech_value5: " - Software: Visual Code 2019",
+            project_tech_value5: "- Software: Visual Code 2019",
             project_source_title: "Link Source Code",
             project_source_value: "https://github.com/phongvan-1412/PVlibrary.git",
             project_video_link: "https://www.youtube.com/embed/kuHOizOi65w",
             project_img: "'../img/image3.jpg'",
             index: 2,
-            id: 2
+            id: 4
         },
         
     ]
@@ -235,6 +290,24 @@ const Portfolio = () => {
                                 }
                             })}</> : null}
 
+                        {horizontalState === 4 ?
+                            <>{projectDetail.map((test, indexmap) => {
+                                if (test.index === 4) {
+                                    return (
+                                        <Button
+                                            key={indexmap}
+                                            id="tab-content"
+                                            role="tabpanel"
+                                            name={test.id}
+                                            onClick={handleShow}
+                                            data-content={test.project_name_value}
+                                        >
+                                            <img style={{ backgroundImage: `url(${process.env.PUBLIC_URL + test.project_img})` }} />
+                                            {test.project_name_value}
+                                        </Button>
+                                    )
+                                }
+                            })}</> : null}
                         <Modal
                             show={show}
                             value={project}
