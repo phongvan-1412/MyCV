@@ -151,7 +151,7 @@ const Portfolio = () => {
             project_source_value: "https://github.com/phongvan-1412/PVlibrary.git",
             project_video_link: "https://www.youtube.com/embed/kuHOizOi65w",
             project_img: "'../img/image3.jpg'",
-            index: 2,
+            index: 3,
             id: 4
         },
         
@@ -290,24 +290,6 @@ const Portfolio = () => {
                                 }
                             })}</> : null}
 
-                        {horizontalState === 4 ?
-                            <>{projectDetail.map((test, indexmap) => {
-                                if (test.index === 4) {
-                                    return (
-                                        <Button
-                                            key={indexmap}
-                                            id="tab-content"
-                                            role="tabpanel"
-                                            name={test.id}
-                                            onClick={handleShow}
-                                            data-content={test.project_name_value}
-                                        >
-                                            <img style={{ backgroundImage: `url(${process.env.PUBLIC_URL + test.project_img})` }} />
-                                            {test.project_name_value}
-                                        </Button>
-                                    )
-                                }
-                            })}</> : null}
                         <Modal
                             show={show}
                             value={project}
