@@ -57,7 +57,7 @@ const project = ({ project }) => {
             </div>
 
 
-            <div>
+            <div className="mt-5">
                 <span className="portfolio-detail-title">{project.project_tech_title}</span>
                 <ul className="portfolio-detail-list list-unstyled">
                     <li className="mb-2">
@@ -110,7 +110,7 @@ const project = ({ project }) => {
                         {project.project_tech_value11 == null ? <></> :
                             <>
                                 <br />
-                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_tech_value11}</span>
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_tech_value11}</span>
                             </>}
                         {project.project_tech_value12 == null ? <></> :
                             <>
@@ -127,25 +127,116 @@ const project = ({ project }) => {
                         <span className="portfolio-detail-title">{project.project_description_title}</span>
                         <br />
                         <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value1}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value2}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value3}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value4}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value5}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value6}</span>
+                        {project.project_description_value2 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value2}</span>
+                            </>}
+                        {project.project_description_value3 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value3}</span>
+                            </>}
+                        {project.project_description_value4 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value4}</span>
+                            </>}
+                        {project.project_description_value5 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value5}</span>
+                            </>}
+                        {project.project_description_value6 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value6}</span>
+                            </>}
                         {project.project_description_value7 == null ? <></> : <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_description_value7}</span>}
-                        {project.project_description_value7 == null ? <></> : <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_description_value8}</span>}
-                        {project.project_description_value7 == null ? <></> : <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_description_value9}</span>}
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value10}</span>
+                        {project.project_description_value8 == null ? <></> : <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_description_value8}</span>}
+                        {project.project_description_value9 == null ? <></> : <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_description_value9}</span>}
+                        {project.project_description_value10 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value10}</span>
+                            </>}
                         <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value11}</span>
-                        <br />
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_description_value12}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_description_value13}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value14}</span>
-                        <br />
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value15}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value16}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value17}</span>
-                        <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value18}</span>
+                        {project.project_description_value12 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_description_value12}</span>
+                            </>}
+                        {project.project_description_value13 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_description_value13}</span>
+                            </>}
+                        {project.project_description_value14 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value14}</span>
+                            </>}
+                        {project.project_description_value15 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value15}</span>
+                            </>}
+                        {project.project_description_value16 == null ? <></> :
+                            <>
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value16}</span>
+                            </>}
+                        {project.project_description_value17 == null ? <></> :
+                            <>
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value17}</span>
+                            </>}
+                        {project.project_description_value18 == null ? <></> :
+                            <>
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value18}</span>
+                            </>}
+                        {project.project_description_value19 == null ? <></> :
+                            <>
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value19}</span>
+                            </>}
+                        {project.project_description_value20 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value20}</span>
+                            </>}
+                        {project.project_description_value21 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value21}</span>
+                            </>}
+                        {project.project_description_value22 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value22}</span>
+                            </>}
+                        {project.project_description_value23 == null ? <></> :
+                            <>
+                                <br/>
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_description_value23}</span>
+                            </>}
+                        {project.project_description_value24 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value24}</span>
+                            </>}
+                        {project.project_description_value25 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value25}</span>
+                            </>}
+                        {project.project_description_value26 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value26}</span>
+                            </>}
+                        {project.project_description_value27 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value27}</span>
+                            </>}
                     </li>
                     <li className="mt-2 p-2">
                         <span className="portfolio-detail-title">{project.project_work_title}</span>
@@ -235,6 +326,31 @@ const project = ({ project }) => {
                             <>
                                 <br />
                                 <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-5">{project.project_work_value19}</span>
+                            </>}
+                        {project.project_work_value20 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_work_value20}</span>
+                            </>}
+                        {project.project_work_value21 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_work_value21}</span>
+                            </>}
+                        {project.project_work_value22 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_work_value22}</span>
+                            </>}
+                        {project.project_work_value23 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_work_value23}</span>
+                            </>}
+                        {project.project_work_value24 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_work_value24}</span>
                             </>}
                     </li>
                 </ul>
