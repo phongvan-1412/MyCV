@@ -117,6 +117,21 @@ const project = ({ project }) => {
                                 <br />
                                 <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_tech_value12}</span>
                             </>}
+                        {project.project_tech_value13 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block">{project.project_tech_value13}</span>
+                            </>}
+                        {project.project_tech_value14 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_tech_value14}</span>
+                            </>}
+                        {project.project_tech_value15 == null ? <></> :
+                            <>
+                                <br />
+                                <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_tech_value15}</span>
+                            </>}
                     </li>
                 </ul>
             </div>
@@ -183,14 +198,17 @@ const project = ({ project }) => {
                             </>}
                         {project.project_description_value16 == null ? <></> :
                             <>
+                                <br/>
                                 <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value16}</span>
                             </>}
                         {project.project_description_value17 == null ? <></> :
                             <>
+                                <br />
                                 <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value17}</span>
                             </>}
                         {project.project_description_value18 == null ? <></> :
                             <>
+                                <br />
                                 <span className="portfolio-detail-value d-block d-sm-inline-block d-lg-block d-xl-inline-block ms-3">{project.project_description_value18}</span>
                             </>}
                         {project.project_description_value19 == null ? <></> :
