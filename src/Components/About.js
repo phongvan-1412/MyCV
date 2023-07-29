@@ -104,9 +104,6 @@ class About extends Component {
                 lang_name: "Javascript"
             },
             {
-                lang_name: "Dart"
-            },
-            {
                 lang_name: "C#"
             }
         ],
@@ -125,9 +122,6 @@ class About extends Component {
             },
             {
                 fwok_name: "WCF"
-            },
-            {
-                fwok_name: "Flutter"
             }
         ],
         patterns: [
@@ -135,7 +129,7 @@ class About extends Component {
                 pat_name: "Singleton"
             },
             {
-                pat_name: "IFacade"
+                pat_name: "Facade"
             }
         ],
         resumes: [
