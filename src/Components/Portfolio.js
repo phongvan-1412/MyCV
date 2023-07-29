@@ -262,6 +262,31 @@ const Portfolio = () => {
             index: 3,
             id: 6
         },
+        {
+            project_name_title: "Project Name",
+            project_name_value: "Portfolio",
+            project_time_title: "Time",
+            project_time_value: "08/22",
+            project_label_title: "Label",
+            project_label_value: "Web Application",
+            project_team_size_title: "Position",
+            project_team_size_value: "Front-end",
+            project_description_title: "Description",
+            project_description_value1: "- I created this portfolio to keep all my projects I've made.",
+            project_tech_title: "Technologies & Software:",
+            project_tech_value1: "- Manage source code: Github",
+            project_tech_value2: "- Database: SQL Server 2019",
+            project_tech_value3: "- Language: Javascript, C#",
+            project_tech_value4: "- Framework: React abd ASP.NET Core 7",
+            project_tech_value9: "- Software: Visual Studio 2022",
+            project_tech_value10: "- Service: EmailJS",
+            project_source_title: "Link Source Code",
+            project_source_value: "https://github.com/phongvan-1412/MyCV.git",
+            project_video_link: "https://www.youtube.com/embed/JZxkYGVjjAs",
+            project_img: "'../img/image7.jpg'",
+            index: 3,
+            id: 7
+        },
     ]
 
     const [horizontalState, setHorizontalState] = useState(1);
